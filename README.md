@@ -1,2 +1,2 @@
 # python-learning
-A notebook of python coding.
+notes about python coding.
