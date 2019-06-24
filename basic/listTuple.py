@@ -1,4 +1,16 @@
 init_list = ['kerwin', 'bob', 'john']
+num_list = [1, 2, 3]
+str = 'kerwin'
+
+# slice
+print(num_list[1:2]) # 2
+print(num_list[:]) # [1, 2, 3]
+print(num_list[-1:]) # [3]
+print(str[:2]) # 'ke'
+
+# get index and value
+for index, value in enumerate(num_list):
+    print(index, value)
 
 # append data in the end
 init_list.append('david') # ['kerwin', 'bob', 'john', 'david']
