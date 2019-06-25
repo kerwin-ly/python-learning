@@ -15,6 +15,10 @@ for index, value in enumerate(num_list):
 # append data in the end
 init_list.append('david') # ['kerwin', 'bob', 'john', 'david']
 
+# merge two lists
+init_list.extend(num_list)
+# print(init_list)
+
 # remove the last of data, return the data
 init_list.pop()
 
@@ -23,6 +27,11 @@ init_list.insert(1, 'david') # ['kerwin', 'david', 'bob', 'john']
 
 # get length
 len(init_list)
+
+# generator
+g = (x * x for x in range(10))
+for i in g:
+    print(i)
 
 # tuple: after init tuple, you can not update the data in it.
 init_tuple = (22, 33, 44)
