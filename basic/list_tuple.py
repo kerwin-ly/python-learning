@@ -49,3 +49,9 @@ print(sum) # 10
 # generate a tuple which length is 1(have to add comma in the end, otherwise the result will be number 1)
 tuple_first = (1,) # (1, )
 num = (1) # 1
+
+# get max/min value
+list_num = [1, 2, 4]
+max(list_num) # 4
+min(list_num) # 1
+

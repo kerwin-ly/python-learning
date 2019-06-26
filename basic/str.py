@@ -19,5 +19,6 @@ if times > 0:
 else:
     print('times out')
 
-
+# format
+print("{a} is {b} years old".format(a = 'kerwin', b = 23))
 
